@@ -54,3 +54,12 @@ npm run build
 ```
 
 Remember to change to `"name"` in the `package.json` and in the `package-lock.json`
+
+## Todo
+
+- [ ] Tests (Both for the frontend and the backend)
+- [ ] More comments
+
+## Contributing
+
+Feel Free to report bug or contribute to improve this boilerplate
