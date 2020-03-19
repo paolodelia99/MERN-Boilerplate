@@ -4,13 +4,13 @@ Are you looking for a MERN boilerplate for auth included. That's the Boilerplate
 
 ## Tecnologies Used
 
-- MongoDb and Mongoose - MongoDb as a Database and mongoose as as a Object Data Modeling library for MongoDB and Node.js
-- Express - as a backend Framework
-- React - as a Frontend Framework
-- Node - runtime JavaScript
-- Redux - for linking the Frontend with the Backend
-- JsonWebToken - for creating JSON-based access tokens
-- bcryptjs -  for hashing the user passwords
+- **MongoDb and Mongoose** - MongoDb as a Database and mongoose as as a Object Data Modeling library for MongoDB and Node.js
+- **Express** - as a backend Framework
+- **React** - as a Frontend Framework
+- **Node** - runtime JavaScript
+- **Redux** - for linking the Frontend with the Backend
+- **JsonWebToken** - for creating JSON-based access tokens
+- **bcryptjs** -  for hashing the user passwords
 
 ## Get Started
 

@@ -8,6 +8,7 @@
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "mocha tests/*.js --exit",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
@@ -15,18 +16,23 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "client": "file:client",
     "config": "^3.3.0",
     "express": "^4.17.1",
     "express-validator": "^6.3.1",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
+    "mocha": "^7.1.1",
     "mongoose": "^5.9.4",
     "normalize-url": "^5.0.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
   }
 }
