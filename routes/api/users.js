@@ -61,9 +61,8 @@ router.post(
         { expiresIn: 360000 },
         (err, token) => {
           if (err) throw err;
-          res.json({
+          res.status(201).json({
             token,
-            status: 201,
             success: true,
             message: "User created!",
             errors: []
