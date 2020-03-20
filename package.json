@@ -30,6 +30,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
+    "babel-jest": "^25.1.0",
     "concurrently": "^5.1.0",
     "nodemon": "^2.0.2",
     "should": "^13.2.3",
