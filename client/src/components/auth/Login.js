@@ -33,16 +33,18 @@ const Login = ({ login, isAuthenticated }) => {
       <form className='form' onSubmit={e => onSubmit(e)}>
         <div className='form-group'>
           <input
-            type='email'
-            placeholder='Email Address'
-            name='email'
-            value={email}
-            onChange={e => onChange(e)}
-            required
+              id='email-input'
+              type='email'
+              placeholder='Email Address'
+              name='email'
+              value={email}
+              onChange={e => onChange(e)}
+              required
           />
         </div>
         <div className='form-group'>
           <input
+              id='password-input'
             type='password'
             placeholder='Password'
             name='password'

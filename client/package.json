@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -40,6 +42,11 @@
   },
   "proxy": "http://localhost:5000",
   "devDependencies": {
-    "jest": "^25.1.0"
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "redux-mock-store": "^1.5.4"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
   }
 }
