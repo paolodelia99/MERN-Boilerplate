@@ -1,6 +1,7 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const path = require('path');
+const helmet = require('helmet');
 
 const app = express();
 
@@ -9,6 +10,7 @@ connectDB();
 
 // Init Middleware
 app.use(express.json({ extended: false }));
+app.use(helmet())
 
 // Define Routes
 app.use('/api/users', require('./routes/api/users'));
