@@ -10,7 +10,7 @@ connectDB();
 
 // Init Middleware
 app.use(express.json({ extended: false }));
-app.use(helmet())
+app.use(helmet());
 
 // Define Routes
 app.use('/api/users', require('./routes/api/users'));
