@@ -57,7 +57,9 @@ Remember to change to `"name"` in the `package.json` and in the `package-lock.js
 
 ## Todo
 
-- [ ] Tests (Both for the frontend and the backend)
+- [ ] Tests
+    - [x] Backend (api)
+    - [ ] FrontEnd
 - [ ] More comments
 
 ## Contributing
