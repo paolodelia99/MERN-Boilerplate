@@ -8,9 +8,9 @@ Are you looking for a MERN boilerplate for auth included. That's the Boilerplate
 - **Express** - as a backend Framework
 - **React** - as a Frontend Framework
 - **Node** - runtime JavaScript
-- **Redux** - for linking the Frontend with the Backend
+- **Redux** - as a state management tool
 - **JsonWebToken** - for creating JSON-based access tokens
-- **bcryptjs** -  for hashing the user passwords
+- **bcryptjs** - for hashing the user passwords
 
 ## Get Started
 
@@ -58,8 +58,8 @@ Remember to change to `"name"` in the `package.json` and in the `package-lock.js
 ## Todo
 
 - [ ] Tests
-    - [x] Backend (api)
-    - [ ] FrontEnd
+  - [x] Backend (api)
+  - [ ] FrontEnd
 - [ ] More comments
 
 ## Contributing
