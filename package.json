@@ -16,18 +16,18 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "chai": "^4.2.0",
+    "chai": "^4.3.4",
     "chai-http": "^4.3.0",
     "client": "file:client",
-    "config": "^3.3.3",
+    "config": "^3.3.6",
     "express": "^4.17.1",
-    "express-validator": "^6.9.2",
+    "express-validator": "^6.11.1",
     "gravatar": "^1.8.1",
     "helmet": "^3.23.3",
     "jsonwebtoken": "^8.5.1",
     "mocha": "^7.2.0",
-    "mongoose": "^5.11.11",
-    "normalize-url": "^5.3.0",
+    "mongoose": "^5.12.13",
+    "normalize-url": "^5.3.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
